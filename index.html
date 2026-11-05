@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Web Technologies and Cloud Computing</title>
+</head>
+<body>
+
+    <h1>تقنيات شبكات الويب الحديثة وحوسبة السحاب المعالجة للبيانات</h1>
+    <p><strong>المادة:</strong> تطبيقات الإنترنت</p>
+    <p><strong>اسم الطالبة:</strong> ناديه السيد شحاته السيد</p>
+    <p><strong>الكود الجامعي:</strong> 2502460</p>
+    <p><strong>السكشن:</strong> 158 - المجموعة: هـ</p>
+    <p><strong>تحت إشراف:</strong> دكتورة مها زغلول</p>
+    <p><strong>العام الدراسي:</strong> 2025 - 2026</p>
+
+    <hr>
+
+    <h2>صورة توضيحية</h2>
+    <img src="edge_cloud.jpg" alt="توضيح لحوسبة الحافة والسحاب وربط البيانات" width="650">
+
+    <h2>1. مقدمة في معمارية الويب والحوسبة الذكية</h2>
+    <p>تشهد تطبيقات الإنترنت تحوّلاً استراتيجياً نحو معماريات الشبكات الموزعة؛ حيث لم تعد خوادم الويب المركزية قادرة بمفردها على تلبية التطلعات. أدى هذا إلى بروز تقنيات <strong>حوسبة الحافة (Edge Computing)</strong> والبروتوكولات المتقدمة.</p>
+    <p>تُبنى هذه المنظومة على نقل القوة الحوسبية من مراكز البيانات البعيدة إلى نقاط تواجد المستخدمين، مما يقلل <b>زمن التأخير (Latency)</b> ويحسن الأداء.</p>
+
+    <h2>2. الأجيال المعمارية لنقل البيانات عبر تطبيقات الويب</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>الجيل المعماري</th>
+            <th>نموذج الاتصال ومعالجة البيانات</th>
+            <th>خاصية الأداء والتجاوب</th>
+        </tr>
+        <tr>
+            <td>النموذج المركزي التقليدي</td>
+            <td>طلب واستجابة مباشرين عبر خادم محوري واحد (HTTP/1.1)</td>
+            <td>زمن استجابة مرتفع مع اختناقات عند تزايد المستخدمين</td>
+        </tr>
+        <tr>
+            <td>نموذج الشبكات الموزعة (CDN)</td>
+            <td>توزيع المحتوى الثابت على عقد جغرافية متعددة</td>
+            <td>تحسن تسليم الملفات مع بقاء المعالجة حكراً على الخادم</td>
+        </tr>
+        <tr>
+            <td>حوسبة الحافة والتفاعل اللحظي</td>
+            <td>تشغيل البرمجيات وحل المعادلات لحظياً على عقد الحافة (HTTP/3)</td>
+            <td>استجابة فورية بدون تأخير مع استمرارية كاملة للخدمة</td>
+        </tr>
+    </table>
+
+    <h3>3. معمارية تدفق البيانات في تطبيقات الويب الحديثة</h3>
+    <p><strong>عميل الويب (Client):</strong> متصفح / تطبيق هاتف</p>
+    <p><strong>عقدة الحافة (Edge Node):</strong> معالجة وتصفية فورية</p>
+    <p><strong>شبكة الاتصال الذكية:</strong> تشفير وبروتوكول QUIC</p>
+    <p><strong>المركز السحابي:</strong> تخزين وتحليل ضخم</p>
+
+    <h3>4. الركائز الأساسية لمعالجة بيانات الويب</h3>
+    <p><strong>Edge Workers:</strong> خوادم برمجية لاخادمية (Serverless) تقوم بتنفيذ الأكواد خلال أجزاء من الملي ثانية بالقرب من المستخدم.</p>
+    <p><strong>QUIC Protocol:</strong> بروتوكول اتصال حديث يعتمد على UDP لتسريع نقل بيانات الويب والتغلب على مشكلات فقدان الحزم.</p>
+
+    <h2>5. تقنية WebAssembly ورفع كفاءة المتصفحات</h2>
+    <p>تُعد <b>WebAssembly (Wasm)</b> واحدة من أكبر الثورات، حيث أتاحت تشغيل لغات مثل <strong>C++ و Rust و Go</strong> مباشرة داخل المتصفح بسرعة تقارب <b>Near-Native Speed</b>.</p>
+    
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>الخاصية البرمجية</th>
+            <th>لغة جافاسكريبت (JavaScript)</th>
+            <th>تقنية WebAssembly (Wasm)</th>
+            <th>مستوى الأداء المكتسب</th>
+        </tr>
+        <tr>
+            <td>نوع التنفيذ</td>
+            <td>مُفسرة لحظياً (JIT Compilation)</td>
+            <td>شيفرة ثنائية مجمعة مسبقاً (Bytecode)</td>
+            <td>تسريع التنفيذ بمقدار 5x إلى 10x</td>
+        </tr>
+        <tr>
+            <td>إدارة الذاكرة</td>
+            <td>تجميع تلقائي للمهملات (Garbage Collected)</td>
+            <td>إدارة خطية مباشرة للذاكرة</td>
+            <td>انخفاض كبير في استهلاك الذاكرة</td>
+        </tr>
+    </table>
+
+    <h2>7. أمن بيانات الويب ومعايير الحماية الحديثة</h2>
+    <p><strong>نموذج الصفر ثقة (Zero Trust):</strong> التحقق الدائم من هوية كل طلب برمجي.</p>
+    <p><strong>التشفير من النهاية للنهاية (E2EE):</strong> تشفير البيانات على جهاز العميل قبل إرسالها.</p>
+
+    <h3>8. معايير الأمن السيبراني المتوافقة مع W3C</h3>
+    <p>1. سياسة أمان المحتوى <b>(CSP)</b>: تقييد الموارد لمنع هجمات XSS</p>
+    <p>2. التحقق الرقمي المتقدم <b>(WebAuthn)</b>: استخدام التقنيات البيومترية بدون كلمات مرور</p>
+    <p>3. عزل أصول العرض <b>(Same-Site & CORS)</b>: حماية بيانات الجلسات</p>
+
+    <h2>10. الحوسبة الخضراء كمعيار حديث</h2>
+    <p><strong>مفهوم تحسين استهلاك كود البرمجة (Sustainable Code):</strong> تقليل العمليات الحسابية غير الضرورية يقلل الطاقة المستهلكة.</p>
+    <p>- التحميل الكسول للموارد <b>(Lazy Loading)</b></p>
+    <p>- التخزين المؤقت المتقدم <b>(Cache Strategies)</b> باستخدام Service Workers</p>
+
+    <h2>13. الخاتمة</h2>
+    <p>في ختام هذا البحث، يتضح جلياً أن بنيات شبكات الويب وتقنيات الحوسبة الموزعة أصبحت العصب الرئيسي المشغل للتطبيقات التفاعلية المعاصرة. التحول نحو حوسبة الحافة أتاح إمكانات هائلة لتطوير واجهات فائقة السرعة.</p>
+
+    <hr>
+
+    <h2>14. المراجع والمصادر العلمية</h2>
+    <ul>
+        <li>Kurose, J. F., & Ross, K. W. (2022). Computer Networking: A Top-Down Approach.</li>
+        <li>W3C WebAssembly Working Group. WebAssembly Core Specification (2023)</li>
+        <li>د. خالد الجابري (2024). معمارية الشبكات الموزعة وتقنيات السحاب الحديثة.</li>
+        <li>Srinivasan, R., et al. (2023). Edge Computing Architectures for High-Throughput Web Applications.</li>
+        <li>
+            <a href="https://www.w3.org/wasm/" target="_blank" style="color: blue; text-decoration: underline; font-weight: bold;">
+                W3C - WebAssembly Official Specification (اضغط هنا)
+            </a>
+        </li>
+        <li>
+            <a href="https://datatracker.ietf.org/doc/html/rfc9000" target="_blank" style="color: blue; text-decoration: underline; font-weight: bold;">
+                IETF - RFC 9000: QUIC Protocol (اضغط هنا)
+            </a>
+        </li>
+    </ul>
+
+</body>
+      </html>
